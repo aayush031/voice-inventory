@@ -8,7 +8,7 @@ function App() {
 
   const fetchInventory = async () => {
     try {
-      const res = await axios.get("https://voice-inventory-pro.onrender.com/api/inventory");
+      const res = await axios.get("https://voice-inventory-rd77.onrender.com/api/inventory");
       setInventory(res.data);
     } catch (error) {
       console.error("Error fetching inventory");
