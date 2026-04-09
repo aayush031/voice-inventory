@@ -29,7 +29,7 @@ function App() {
       setText(transcript);
 
       try {
-        const res = await axios.post("https://voice-inventory-pro.onrender.com/api/command", {
+        const res = await axios.post("https://voice-inventory-rd77.onrender.com/api/command", {
           text: transcript
         });
 
@@ -44,7 +44,7 @@ function App() {
   const resetInventory = async () => {
     if (window.confirm("Are you sure you want to reset inventory?")) {
       try {
-        await axios.delete("https://voice-inventory-pro.onrender.com/api/reset");
+        await axios.delete("https://voice-inventory-rd77.onrender.com/api/reset");
         setResponse("Inventory Reset Successfully");
         fetchInventory();
       } catch (err) {
