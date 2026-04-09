@@ -2,8 +2,8 @@
 
 ## 🚀 Live Application
 
-🌐 Frontend: https://voice-inventory-pro.vercel.app  
-⚙ Backend API: https://voice-inventory-pro.onrender.com  
+🌐 Frontend: https://voice-inventory-two.vercel.app/ 
+⚙ Backend API:https://voice-inventory-rd77.onrender.com  
 🗄 Database: MongoDB Atlas (Cloud)
 
 ---
